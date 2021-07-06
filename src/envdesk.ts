@@ -1,7 +1,7 @@
 import {Store} from "./lib/core/store";
 import {Functions} from "./lib/core/functions";
 
-export class Envdesk {
+export default class Envdesk {
 
     static variableStore = Store.raw
 
@@ -10,5 +10,3 @@ export class Envdesk {
     static engine = Functions
 
 }
-
-Envdesk.engine.loadVariables({access_key: "", environment: "", private_key: ""})

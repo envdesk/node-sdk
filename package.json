@@ -1,11 +1,14 @@
 {
   "name": "envdesk",
-  "version": "1.0.1",
-  "description": "",
-  "main": "index.js",
+  "version": "1.0.7",
+  "description": "Official envdesk sdk for node",
+  "main": "build/envdesk.js",
+  "types": "build/envdesk.d.ts",
   "scripts": {
     "test": "npm run build && node build/test.js",
-    "build": "tsc"
+    "build": "tsc",
+    "prepublish": "tsc",
+    "go:live": "npm run build && npm publish"
   },
   "keywords": [],
   "author": "",
