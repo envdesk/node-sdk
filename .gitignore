@@ -1,0 +1,10 @@
+.idea
+src/test.ts
+
+node_modules
+
+package-lock.json
+
+envdesk-node-sdk.iml
+
+build
